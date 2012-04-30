@@ -1,0 +1,2 @@
+Haven't got the test-driven approach working yet - the early tests acted as a development
+scaffold but didn't provide safety, while later tests dealt with too many concerns.
