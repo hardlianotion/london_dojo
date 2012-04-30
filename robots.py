@@ -1,4 +1,3 @@
-import string
 
 directions = {'E': (0, (1, 0)), 'S': (1, (0, -1)), 'W': (2, (-1, 0)), 'N': (3, (0, 1))}
 invDirections = {0:'E', 1:'S', 2:'W', 3: 'N'}

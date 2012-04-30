@@ -5,7 +5,6 @@ import re
 from robots import *
 
 class RobotTestCase(unittest.TestCase):
-  #self.robot = Robot(([1,1],'E'))
 
   def setup(self):
     pass
@@ -123,7 +122,6 @@ class RobotTestCase(unittest.TestCase):
   def test_back(self):
     robot = Robot(([1,1],'E'))
     robot.move('B')
-    #print robot.position()
     self.assertEqual(([0,1], 'E'), robot.position())
 
   def readDirections(self):
